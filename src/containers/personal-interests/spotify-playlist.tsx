@@ -73,8 +73,8 @@ export const SpotifyPlaylist = () => {
             style={{ borderRadius: "12px" }}
             src={
               currentTheme === "dark"
-                ? "https://open.spotify.com/embed/playlist/677KIyayzcVJeA77I9hEi0?utm_source=generator&theme=0"
-                : "https://open.spotify.com/embed/playlist/677KIyayzcVJeA77I9hEi0?utm_source=generator&theme=1"
+                ? "https://open.spotify.com/embed/playlist/04EygWhrSKOSkeBHm0spxi?utm_source=generator&theme=0"
+                : "https://open.spotify.com/embed/playlist/04EygWhrSKOSkeBHm0spxi?utm_source=generator&theme=1"
             }
             width="100%"
             height="500px"

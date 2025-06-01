@@ -11,17 +11,17 @@ import { motion } from "framer-motion"
 import { memo, useEffect, useState } from "react"
 
 const texts = [
-  "Front-End Developer",
-  "UI/UX Enthusiast",
+  "Fullstack Developer",
+  "UI/UX Designer",
   "JavaScript Developer",
   "React.js Developer",
   "Next.js Developer",
-  "UI/UX Designer",
-  "Graphic Designer",
+  "AI Scientist",
   "Animation Developer",
   "Motion Developer",
-  "Smooth Transition",
-  "WebGL Developer",
+  "Node Developer",
+  "Python Developer",
+  "API Developer",
 ]
 
 const animationTypes: AnimationVariant[] = [
@@ -63,7 +63,7 @@ export const MyUniverse = () => {
       <div className="flex-1 relative w-full lg:w-auto">
         <div className="text-xs bg-zinc-100 dark:bg-gray-800/50 w-max rounded-full border flex items-center gap-2 px-3 py-1.5">
           <div className="size-2 rounded-full bg-indigo-700 font-medium animate-pulse" />
-          Welcome to my universe
+          Welcome to my page
         </div>
         <div className="flex flex-row gap-4 items-center my-4 lg:my-0 lg:block">
           <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-7xl font-bold tracking-tight my-4 md:my-8 dark:text-zinc-300 text-zinc-700">
@@ -82,9 +82,9 @@ export const MyUniverse = () => {
           Clean Code
         </div>
 
-        {/* <div className="px-3 py-2 hidden sm:block absolute bottom-36 right-2 sm:right-20 bg-yellow-500/20 rounded-[6px] w-max font-medium dark:text-yellow-300 text-yellow-500 border border-yellow-500/20 animate-wiggle duration-1000">
+        <div className="px-3 py-2 hidden sm:block absolute bottom-36 right-2 sm:right-20 bg-yellow-500/20 rounded-[6px] w-max font-medium dark:text-yellow-300 text-yellow-500 border border-yellow-500/20 animate-wiggle duration-1000">
           Innovation
-        </div> */}
+        </div>
 
         <div className="flex items-center justify-center md:justify-start">
           <motion.div

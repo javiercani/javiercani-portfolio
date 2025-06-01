@@ -71,10 +71,10 @@ export function MyInformation() {
                         Caniparoli Javier
                       </p>
                       <p className="relative z-20 text-sm sm:text-base text-neutral-500 font-medium uppercase">
-                        Digital Fortress Co., Ltd.
+                        System Engineer
                       </p>
                       <p className="relative z-20 text-sm sm:text-base text-neutral-500 font-medium uppercase">
-                        Frontend Developer
+                        Full-stack Developer
                       </p>
                     </div>
                   </div>
@@ -83,12 +83,10 @@ export function MyInformation() {
                 </div>
                 <div className="space-y-6 flex-1 flex flex-col items-center justify-center">
                   <h3 className="pt-0.5 text-lg font-bold text-balance text-black md:text-4xl dark:text-white">
-                    Passionate about technology and frontend craftsmanship.
+                    Passionate about design and development of customized technological solutions.
                   </h3>
                   <h2 className="text-sm/[1.125rem] text-black md:text-base/[1.375rem] dark:text-neutral-400 [&_b]:md:font-semibold [&_strong]:md:font-semibold">
-                    I thrive on learning, leading, and solving complex
-                    challenges — always reflecting on how each experience
-                    contributes to personal and team growth.
+                  I am driven by a constant pursuit of excellence and daily improvement. I am committed to continuous learning, always seeking out new knowledge and resources to stay current in this dynamic sector. I greatly value teamwork; I integrate by contributing my knowledge and am always willing to learn from my colleagues to achieve the proposed objectives and find the best solutions to complex problems.
                   </h2>
                 </div>
 
@@ -108,7 +106,13 @@ export function MyInformation() {
         numRows={1}
         className="!text-xl md:!text-3xl opacity-50 my-6"
       >
-        ⭐ Personal Portfolio
+        🔍 In-depth research
+        🧠 Continuous learning
+        🚀 Innovation
+        💡 Creativity
+        📈 Growing constantly
+        🎯 Achieving goals
+        💻 Creating technology
       </VelocityScroll>
     </>
   )
@@ -324,7 +328,32 @@ const KeySkills = () => {
       darkColor: "rgba(16, 185, 129, 0.2)",
     },
     {
-      name: "Performance Optimization",
+      name: "Python",
+      color: "rgb(254 243 199)",
+      darkColor: "rgba(245, 158, 11, 0.2)",
+    },
+    {
+      name: "Databases",
+      color: "rgb(254 243 199)",
+      darkColor: "rgba(245, 158, 11, 0.2)",
+    },
+    {
+      name: "Machine Learning",
+      color: "rgb(254 243 199)",
+      darkColor: "rgba(245, 158, 11, 0.2)",
+    },
+    {
+      name: "Finetuning",
+      color: "rgb(254 243 199)",
+      darkColor: "rgba(245, 158, 11, 0.2)",
+    },
+    {
+      name: "LLM Models",
+      color: "rgb(254 243 199)",
+      darkColor: "rgba(245, 158, 11, 0.2)",
+    },
+    {
+      name: "Dockers",
       color: "rgb(254 243 199)",
       darkColor: "rgba(245, 158, 11, 0.2)",
     },

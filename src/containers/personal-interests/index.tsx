@@ -266,7 +266,7 @@ const items = [
     title: "Go-To Dev Blogs",
     description: (
       <span className="text-sm">
-        Where I learn, stay up-to-date, and explore new frontend trends.
+        Where I learn, stay up-to-date, and explore new trends.
       </span>
     ),
     header: <SkeletonFour />,
